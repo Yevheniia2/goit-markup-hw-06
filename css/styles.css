@@ -598,6 +598,7 @@ address{
 
 .subscribe-form{
     display: flex;
+    margin-top: 20px;
 }
 
 .subscribe-title{
@@ -613,7 +614,6 @@ address{
     width: 358px;
     height: 50px;
     padding: 15px 16px;
-    margin-top: 20px;
     margin-right: 12px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     box-sizing: border-box;
@@ -648,7 +648,6 @@ address{
     display: flex;
     align-items: center;
     text-align: center;
-    margin-top: 20px;
     cursor: pointer;
     color: var(--primary-white-color);
     fill: white;
@@ -788,13 +787,19 @@ address{
 
 .textarea-label{
     margin-bottom: 4px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.01em;
+    color: var(--primary-text-color);
 }
 
 .textarea-label::placeholder{
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
-    line-height: 1.14;
+    font-size: 12px;
+    line-height: 1.17;
     letter-spacing: 0.01em;
     color: rgba(117, 117, 117, 0.5);
 }
